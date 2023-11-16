@@ -1,0 +1,40 @@
+.chat-input-container {
+    width: 100%;
+    height: 98px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: transparent linear-gradient(91deg, #EFEFEF 0%, #E2E2E2 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 10px 120px;
+  }
+.chat-textbox {
+    width: 80%;
+    height: 81px;
+    font: normal normal 300 25px/31px Public Sans;
+    letter-spacing: 0px;
+    color: #28293F;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+.enter-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px ;
+}
+
+.chat-textbox::placeholder {
+    top: 1016px;
+    left: 644px;
+    width: 526px;
+    height: 31px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 25px/31px Public Sans;
+    letter-spacing: 0px;
+    color: #28293F;
+    opacity: 0.9;
+}

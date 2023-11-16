@@ -1,0 +1,38 @@
+.message-page {
+  display: flex;
+  height: 1080px;
+  width: 100%;
+}
+
+.side-bar {
+  width: 20%;
+  background: #FAFAFB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-side-bar {
+  width: 20%;
+  background: #FAFAFB;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-container {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../assets/mano_cel.png');
+  background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+  background-position: center; /* Alinea la imagen al centro */
+  background-repeat: no-repeat;
+}
+
+.chat-container.reduced {
+  width: 60%;
+}
+
